@@ -1,0 +1,27 @@
+{
+  "name": "react-native-smart-corner-label",
+  "version": "1.0.0",
+  "description": "A smart corner label for React Native app",
+  "main": "CornerLabel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-native-component/react-native-smart-corner-label.git"
+  },
+  "keywords": [
+    "react-native",
+    "smart",
+    "corner",
+    "label",
+    "corner label",
+    "component"
+  ],
+  "author": "HISAME SHIZUMARU",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/react-native-component/react-native-smart-corner-label/issues"
+  },
+  "homepage": "https://github.com/react-native-component/react-native-smart-corner-label#readme"
+}
