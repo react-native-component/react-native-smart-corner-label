@@ -1,6 +1,6 @@
 {
   "name": "@react-native-component/react-native-smart-corner-label",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A smart corner label for React Native app",
   "main": "CornerLabel.js",
   "scripts": {
