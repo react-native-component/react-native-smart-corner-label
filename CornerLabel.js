@@ -42,9 +42,9 @@ export default class CornerLabel extends Component {
 
   // 构造
     constructor(props) {
-      super(props);
+      super(props)
       // 初始状态
-      this.state = {};
+      this.state = {}
 
       this._labelHeight = Math.sqrt( Math.pow(props.cornerRadius, 2) / 2 )
       this._labelWidth = this._labelHeight * 2
