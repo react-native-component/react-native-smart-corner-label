@@ -15,20 +15,26 @@ This component is compatible with React Native 0.25 and newer.
 npm install react-native-smart-corner-label --save
 ```
 
-or
-
-```
-npm install @react-native-component/react-native-smart-corner-label --save
-```
-
-
-
 ## Usage
 
-Install the button from npm with `npm install @react-native-component/react-native-smart-corner-label --save`.
-Then, require it from your app's JavaScript files with `import Button from '@react-native-component/react-native-smart-corner-label'`.
+Install the button from npm with `npm install react-native-smart-corner-label --save`.
+Then, require it from your app's JavaScript files with `import Button from 'react-native-smart-corner-label'`.
 
 ```js
+import React, {
+  Component,
+} from 'react'
+import {
+  StyleSheet,
+  View,
+  Image,
+  Text,
+} from 'react-native'
+
+import CornerLabel from 'react-native-smart-corner-label'
+
+import image_shopping from '../images/shopping.png'
+
 export default class CornerLabelDemo extends Component {
 
   render() {
