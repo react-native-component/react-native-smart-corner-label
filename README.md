@@ -18,7 +18,7 @@ npm install react-native-smart-corner-label --save
 ## Usage
 
 Install the button from npm with `npm install react-native-smart-corner-label --save`.
-Then, require it from your app's JavaScript files with `import Button from 'react-native-smart-corner-label'`.
+Then, require it from your app's JavaScript files with `import CornerLabel from 'react-native-smart-corner-label'`.
 
 ```js
 import React, {
@@ -58,9 +58,10 @@ export default class CornerLabelDemo extends Component {
           <Image source={image_shopping} style={{width: 30, height: 30, marginHorizontal: 10, marginBottom: 10,}}/>
           <Text>购物</Text>
           <CornerLabel
+            alignment={'right'}
             cornerRadius={36}
             style={{backgroundColor: 'red', }}
-            textStyle={{fontSize: 12, color: '#fff', transform: [{rotate: '-45deg'}],}}>
+            textStyle={{fontSize: 12, color: '#fff', }}>
             新
           </CornerLabel>
         </View>
@@ -83,14 +84,16 @@ export default class CornerLabelDemo extends Component {
           <Text>购物</Text>
           <CornerLabel
             cornerRadius={54}
+            alignment={'right'}
             style={{backgroundColor: 'red', height: 24,}}
             textStyle={{color: '#fff', fontSize: 12,}}>
-            3折优惠
+            7折优惠
           </CornerLabel>
         </View>
       </View>
     )
   }
+
 }
 ```
 
@@ -98,11 +101,12 @@ export default class CornerLabelDemo extends Component {
 
 Prop                   | Type   | Optional | Default   | Description
 ---------------------- | ------ | -------- | --------- | -----------
+alignment              | string | Yes      | 'left'    | determines the position of the corner label(keep left or right).
 cornerRadius           | number | No       |           | determines the value of the corner's radius.
 style                  | style  | Yes      |           | see [react-native documents][2]
 textStyle              | style  | Yes      |           | see [react-native documents][3]
 
-[1]: http://cyqresig.github.io/img/react-native-smart-corner-label-preview-ios-v1.0.0.gif
+[1]: http://cyqresig.github.io/img/react-native-smart-corner-label-preview-ios-v1.1.0.gif
 [2]: https://facebook.github.io/react-native/docs/style.html
 [3]: https://facebook.github.io/react-native/docs/text.html#style
-[4]: http://cyqresig.github.io/img/react-native-smart-corner-label-preview-android-v1.0.0.gif
+[4]: http://cyqresig.github.io/img/react-native-smart-corner-label-preview-android-v1.1.0.gif
