@@ -38,7 +38,7 @@ export default class CornerLabel extends Component {
         alignment: 'left',
     }
 
-    static PropTypes = {
+    static propTypes = {
         style: View.propTypes.style,
         textStyle: Text.propTypes.style,
         cornerRadius: PropTypes.number.isRequired,
