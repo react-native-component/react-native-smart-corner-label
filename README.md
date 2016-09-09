@@ -15,6 +15,10 @@ This component is compatible with React Native 0.25 and newer.
 npm install react-native-smart-corner-label --save
 ```
 
+## Full Demo
+
+see [ReactNativeComponentDemos][0]
+
 ## Usage
 
 Install the button from npm with `npm install react-native-smart-corner-label --save`.
@@ -106,6 +110,7 @@ cornerRadius           | number | No       |           | determines the value of
 style                  | style  | Yes      |           | see [react-native documents][2]
 textStyle              | style  | Yes      |           | see [react-native documents][3]
 
+[0]: https://github.com/cyqresig/ReactNativeComponentDemos
 [1]: http://cyqresig.github.io/img/react-native-smart-corner-label-preview-ios-v1.1.0.gif
 [2]: https://facebook.github.io/react-native/docs/style.html
 [3]: https://facebook.github.io/react-native/docs/text.html#style
