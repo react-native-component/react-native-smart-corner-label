@@ -1,4 +1,10 @@
 # react-native-smart-corner-label
+
+[![npm](https://img.shields.io/npm/v/react-native-smart-corner-label.svg)](https://www.npmjs.com/package/react-native-smart-corner-label)
+[![npm](https://img.shields.io/npm/dm/react-native-smart-corner-label.svg)](https://www.npmjs.com/package/react-native-smart-corner-label)
+[![npm](https://img.shields.io/npm/dt/react-native-smart-corner-label.svg)](https://www.npmjs.com/package/react-native-smart-corner-label)
+[![npm](https://img.shields.io/npm/l/react-native-smart-corner-label.svg)](https://github.com/react-native-component/react-native-smart-corner-label/blob/master/LICENSE)
+
 A smart corner label for React Native app, written in JS for cross-platform support.
 It works on iOS and Android.
 
