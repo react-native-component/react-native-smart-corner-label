@@ -27,7 +27,7 @@ see [ReactNativeComponentDemos][0]
 
 ## Usage
 
-Install the button from npm with `npm install react-native-smart-corner-label --save`.
+Install the package from npm with `npm install react-native-smart-corner-label --save`.
 Then, require it from your app's JavaScript files with `import CornerLabel from 'react-native-smart-corner-label'`.
 
 ```js
