@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     },
     text: {
         color: '#fff',
-        fontFamily: '.HelveticaNeueInterface-MediumP4',
+        // fontFamily: '.HelveticaNeueInterface-MediumP4',
         fontSize: 12,
     },
 })
